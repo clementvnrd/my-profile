@@ -1,0 +1,116 @@
+<style>
+      /* CSS styles for the page */
+      body {
+        color: #333;
+        
+        background-color: #ffffff;
+      }
+      header {
+        background-color: hsl(352, 45%, 39%);
+        font-weight: 100;
+        font-size: 200%;
+        font-family: 'Berlin Sans FB', sans-serif;
+        color: #ffe6e6;
+        text-align: center;
+        padding: 1.5em;
+      }
+      header h1:hover {
+        color: #e69d00;
+      }
+      header p {
+        margin: 0;
+        font-size: 80%;
+        color: #fabebe;
+      }
+      #profile {
+        max-width: 25%;
+        height: auto;
+        display: block;
+        margin: 3% auto;
+        border-radius: 20%;
+        box-shadow: 0 0 10px #ccc;
+      }
+      .surprise {
+        font-family: 'Berlin Sans FB', sans-serif;
+        color: #fff;
+        background-color:brown;
+        padding: 15px 20px;
+        border-radius: 4px;
+        font-size: 150%;
+        font-weight: bold;
+      }
+      @keyframes blink {
+        0% { }
+        50% { background-color: red;}
+      }
+      .surprise:hover {
+        background-color: #333;
+        animation: blink 0.7s infinite;
+      }
+      .logo {
+        max-width: 50px;
+        border-radius: 30%;
+        box-shadow: 0 0 10px #ccc;
+      }
+      .logo:hover {
+        box-shadow: 0 0 30px #e69d00;
+      }
+      .Links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .box {
+        background-color: #fafafa;
+        padding: 1em;
+        margin-bottom: 1em;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #ccc;
+        width: 800px; /* set the width of your box */
+        margin: 40px auto; 
+        text-align: center;
+      }
+      .free {
+        text-align: center;
+      }
+      .box:hover {
+        box-shadow: 0 0 10px #ccc;
+      }
+      .box h2 {
+        font-family: 'Berlin Sans FB', sans-serif;
+        font-size: 200%;
+        margin-bottom: 0.5em;
+        color: #124f91;
+      }
+      .box p {
+        font-family: 'Berlin Sans FB', sans-serif;
+        font-size: 125%;
+      }
+      .social {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      .social li {
+        margin-right: 1em;
+      }
+
+    @media (max-width: 960px) {
+      /* For a screen < 960px, this CSS will be read */
+      .box {
+        width: 700px;
+      }
+    }
+    @media (max-width: 720px) {
+      /* For a screen < 720px, this CSS will be read */
+      .box {
+        width: 500px;
+      }
+    }
+    @media (max-width: 540px) {
+      /* For a screen < 540px, this CSS will be read */
+      .box {
+        width: 300px;
+      }
+    }
+    </style>
